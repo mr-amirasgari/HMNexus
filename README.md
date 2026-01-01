@@ -20,6 +20,29 @@ HMNexus empowers biologists, clinicians, and researchers **without programming e
 - 📦 **Standalone executables** available (no Python needed)  
 - 🆓 **Open-source** under MIT License
 
+  
+---
+
+## 📊 Performance Benchmark
+
+| Tool | Interface | Time (for 18.2 GB BRCA data) | Coding Required |
+| :--- | :--- | :--- | :--- |
+| HMNexus | GUI (Tkinter) | 12 min 18 sec | No |
+| GDC Data Transfer Tool | CLI | 58 min 42 sec | Yes |
+| TCGAbiolinks (R) | Scripted | ~54 min | Yes |
+
+> *Note: Performance may vary depending on your network bandwidth and system resources.*
+
+---
+
+## 🛠️ Technology & Language
+
+- Programming Language: Python 3.9+
+- GUI Framework: Tkinter
+- Download Engine: Manifest-based concurrent HTTP downloads
+- Packaging: PyInstaller
+- License: MIT
+
 ---
 
 ## 🚀 Quick Start
@@ -32,6 +55,28 @@ HMNexus empowers biologists, clinicians, and researchers **without programming e
 3. Run it — no installation or Python required!
 
 ---
+
+## 👨‍💻 Development Team
+
+- Siamak Salimy (Team Lead)
+- Amirmohammad Asgari
+- Mohammadreza Shahbazi
+- Abolfazl Ghasemi
+- Mahan Mirzade
+
+---
 🔗 Official TCGA Data Portal (GDC):
 <https://portal.gdc.cancer.gov/>
 ---
+
+## 📜 Citation
+
+If you use HMNexus in your academic research, please cite our paper:
+
+> Salimy S., Asgari A., Shahbazi M., Ghasemi A., & Mirzade M. (2025). HMNexus: A Tkinter GUI Platform for High-Speed, Code-Free TCGA Data Download. *BMC Bioinformatics*.
+
+---
+
+## 📄 License
+
+© 2025 HMNexus Project
