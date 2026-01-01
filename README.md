@@ -1,70 +1,115 @@
-
 <a id="readme-top"></a>
 
-
 <br />
+
 <div align="center">
+
   
+
   <a href="https://github.com/Siamak-salimy/HMNexus">
+
     <img src="https://img.shields.io/badge/GitHub_Repo-Siamak--salimy/HMNexus-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"/>
+
   </a>
+
   <br/><br/>
 
   <a href="https://github.com/Siamak-salimy/HMNexus">
+
     <img src="src/images/icon.ico" alt="Logo" width="80" height="80">
+
   </a>
 
   <h3 align="center">HMNexus</h3>
 
   <p align="center">
+
     A high-speed, code-free GUI for downloading TCGA data.
+
     <br />
+
     <a href="https://siamak-salimy.github.io/HMNexus/"><strong>Explore the Website »</strong></a>
+
     <br />
+
     <br />
+
     <a href="https://github.com/Siamak-salimy/HMNexus/releases">View Repositoty</a>
+
     ·
+
     <a href="https://github.com/Siamak-salimy/HMNexus/issues/new?assignees=&labels=bug&template=bug_report.md&title=">Report Bug</a>
+
     ·
+
     <a href="https://github.com/Siamak-salimy/HMNexus/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=">Request Feature</a>
+
   </p>
+
 </div>
 
-
 <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#data-source">Data Source</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#development-team">Development Team</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
 
+  <summary>Table of Contents</summary>
+
+  <ol>
+
+    <li>
+
+      <a href="#about-the-project">About The Project</a>
+
+      <ul>
+
+        <li><a href="#built-with">Built With</a></li>
+
+        <li><a href="#data-source">Data Source</a></li>
+
+      </ul>
+
+    </li>
+
+    <li>
+
+      <a href="#getting-started">Getting Started</a>
+
+      <ul>
+
+        <li><a href="#prerequisites">Prerequisites</a></li>
+
+        <li><a href="#installation">Installation</a></li>
+
+      </ul>
+
+    </li>
+
+    <li><a href="#usage">Usage</a></li>
+
+    <li><a href="#roadmap">Roadmap</a></li>
+
+    <li><a href="#contributing">Contributing</a></li>
+
+    <li><a href="#development-team">Development Team</a></li>
+
+    <li><a href="#citation">Citation</a></li>
+
+    <li><a href="#license">License</a></li>
+
+    <li><a href="#contact">Contact</a></li>
+
+  </ol>
+
+</details>
 
 ## About The Project
 
-[![HMNexus Screenshot][product-screenshot]](https://siamak-salimy.github.io/HMNexus/)
+<a href="https://siamak-salimy.github.io/HMNexus/">
+  <img src="src/images/project%20snapshot.png" alt="HMNexus Screenshot" width="600"/>
+</a>
 
 **HMNexus** is a cross-platform desktop application designed to eliminate the technical barriers in accessing The Cancer Genome Atlas (TCGA) data. Traditional methods require command-line expertise and scripting, making them inaccessible for many biologists, clinicians, and medical researchers. HMNexus solves this problem by providing a fully graphical, intuitive, and powerful tool that requires zero coding.
 
 Here's why HMNexus is a game-changer:
+
 * **Accessibility:** Empowers researchers without a programming background to independently download and manage massive genomic datasets.
 * **Efficiency:** Accelerates the data acquisition phase of research with high-speed, parallel downloads, saving valuable time.
 * **Simplicity:** Transforms a complex workflow into a simple, three-step process: select, import, and download.
@@ -87,8 +132,6 @@ All data is sourced from the official NCI portals. You can download your data ma
 *   [![The Cancer Genome Atlas (TCGA) Program][TCGA-shield]][TCGA-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## Getting Started
 
@@ -130,10 +173,10 @@ You can either download the standalone executable (recommended for most users) o
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Usage
 
 HMNexus is designed to be as intuitive as possible. The main workflow consists of:
+
 1.  **Filtering Data**: Use the dropdown menus to select the cancer type and data category you are interested in.
 2.  **Importing a Manifest**: Click "Import Manifest" to load a manifest file downloaded from the GDC Data Portal.
 3.  **Downloading**: Click "Start Download" to begin the high-speed download process. Your files will be automatically organized into structured directories.
@@ -141,7 +184,6 @@ HMNexus is designed to be as intuitive as possible. The main workflow consists o
 For more detailed examples and tutorials, please refer to the **[Project Website](https://siamak-salimy.github.io/HMNexus/)**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Roadmap
 
@@ -155,7 +197,6 @@ For more detailed examples and tutorials, please refer to the **[Project Website
 See the [open issues](https://github.com/Siamak-salimy/HMNexus/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Contributing
 
@@ -173,9 +214,7 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 👨‍💻 Development Team
-
 - Siamak Salimy (Team Lead)
 - Amirmohammad Asgari
 - Mohammadreza Shahbazi
@@ -187,15 +226,12 @@ Don't forget to give the project a star! Thanks again!
 ---
 
 ## 📜 Citation
-
 If you use HMNexus in your academic research, please cite our paper:
-
 > Salimy S., Asgari A., Shahbazi M., Ghasemi A., & Mirzade M. (2025). HMNexus: A Tkinter GUI Platform for High-Speed, Code-Free TCGA Data Download. *BMC Bioinformatics*.
 
 ---
 
 ## 📄 License
-
 © 2025 HMNexus Project
 
 ## Contact
@@ -213,6 +249,3 @@ Project Link: [https://github.com/Siamak-salimy/HMNexus](https://github.com/Siam
 [Tkinter-url]: https://docs.python.org/3/library/tkinter.html
 [TCGA-shield]: https://img.shields.io/badge/The_Cancer_Genome_Atlas_(TCGA)-0A539C?style=flat&logo=unrealengine&logoColor=white
 [TCGA-url]: https://www.cancer.gov/tcga
-
-
-
