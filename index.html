@@ -75,7 +75,7 @@
     <p><em>A GUI Platform for High-Speed, Code-Free TCGA Data Download</em></p>
     <div>
       <span class="badge">Python</span>
-      <span class="badge">PyQt5</span>
+      <span class="badge">tkinter</span>
       <span class="badge">MIT License</span>
       <span class="badge">Cross-Platform</span>
     </div>
@@ -93,10 +93,10 @@
     <strong>Background:</strong> The Cancer Genome Atlas (TCGA) is a pivotal resource for cancer genomics, yet its utility is limited for non-programmers due to reliance on command-line tools or complex scripting for data download. Although the NCI’s GDC Data Transfer Tool supports manifest-based downloads, it lacks a graphical interface and offers no interactive data exploration.
   </p>
   <p>
-    <strong>Results:</strong> We present <strong>HMNexus</strong>, an open-source, PyQt-based desktop application that combines intuitive graphical data selection with high-speed, manifest-driven downloads from the GDC portal. Users can browse and filter TCGA datasets by cancer type, data category (e.g., gene expression, clinical, methylation), and sample attributes through a point-and-click interface, and instantly generate and download data using optimized concurrent HTTP requests based on GDC manifest files. Benchmarks show our tool reduces total download time by up to <span class="highlight">4.8×</span> compared to sequential command-line approaches (e.g., GDC CLI with default settings), while requiring zero coding. Downloaded files are automatically organized into analysis-ready directory structures.
+    <strong>Results:</strong> We present <strong>HMNexus</strong>, an open-source, tkinter-based desktop application that combines intuitive graphical data selection with high-speed, manifest-driven downloads from the GDC portal. Users can browse and filter TCGA datasets by cancer type, data category (e.g., gene expression, clinical, methylation), and sample attributes through a point-and-click interface, and instantly generate and download data using optimized concurrent HTTP requests based on GDC manifest files. Benchmarks show our tool reduces total download time by up to <span class="highlight">4.8×</span> compared to sequential command-line approaches (e.g., GDC CLI with default settings), while requiring zero coding. Downloaded files are automatically organized into analysis-ready directory structures.
   </p>
   <p>
-    <strong>Conclusions:</strong> HMNexus bridges the gap between usability and performance, empowering biologists and clinical researchers to access TCGA data rapidly and effortlessly. It is cross-platform, dependency-light (Python 3 + PyQt5), and distributed under the MIT license.
+    <strong>Conclusions:</strong> HMNexus bridges the gap between usability and performance, empowering biologists and clinical researchers to access TCGA data rapidly and effortlessly. It is cross-platform, dependency-light (Python 3 + tkinter), and distributed under the MIT license.
   </p>
 
   <h2>Key Features</h2>
@@ -104,9 +104,7 @@
     <li>✅ <strong>Zero coding required</strong> – fully graphical interface</li>
     <li>⚡ <strong>High-speed concurrent downloads</strong> via GDC manifest files</li>
     <li>🧩 <strong>Interactive filtering</strong> by cancer type, data category, and sample attributes</li>
-    <li>📁 <strong>Automatic file organization</strong> (e.g., <code>BRCA/clinical/</code>, <code>LUAD/rnaseq/</code>)</li>
     <li>🔒 <strong>MD5 checksum validation</strong> for data integrity</li>
-    <li>🌐 <strong>Cross-platform</strong>: Windows, macOS, Linux</li>
   </ul>
 
   <h2>Performance Benchmark</h2>
@@ -141,7 +139,7 @@
   <p>Once the first release is published, you will be able to:</p>
   <ul>
     <li>Download standalone executables for Windows, macOS, and Linux</li>
-    <li>Run from source using Python 3.9+ and PyQt5</li>
+    <li>Run from source using Python 3.9+ and tkinter</li>
   </ul>
   <p><em>Check the <a href="https://github.com/Siamak-salimy/HMNexus/releases">Releases</a> page soon!</em></p>
 
@@ -150,7 +148,7 @@
     If you use HMNexus in your research, please cite:
   </p>
   <blockquote>
-    Salimy, S., Asgari, A., Shahbazi, M., & Ghasemi, A. HMNexus: A GUI Platform for High-Speed, Code-Free TCGA Data Download. <em>BMC Bioinformatics</em> (2025).
+    Salimy, S., Asgari, A., Shahbazi, M., & Ghasemi, A, & Mirzade,M. HMNexus: A GUI Platform for High-Speed, Code-Free TCGA Data Download. <em>BMC Bioinformatics</em> (2025).
   </blockquote>
 
   <footer>
