@@ -144,7 +144,6 @@ HMNexus is designed to be as intuitive as possible. The main workflow consists o
 For more detailed examples and tutorials, please refer to the **[Project Website](https://siamak-salimy.github.io/HMNexus/)**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Roadmap
 
 - [x] Core GUI for data filtering and download
